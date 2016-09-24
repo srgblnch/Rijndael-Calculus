@@ -1,0 +1,348 @@
+2016-09-21T22:20:26.892811	Father		With 16 processors, prepare a set of 15 workers
+2016-09-21T22:20:26.909808	Worker 0	is going to search for pair (2,2)
+2016-09-21T22:20:26.913026	Worker 1	is going to search for pair (2,3)
+2016-09-21T22:20:26.921602	Worker 2	is going to search for pair (2,4)
+2016-09-21T22:20:26.925704	Worker 3	is going to search for pair (2,5)
+2016-09-21T22:20:26.929061	Worker 4	is going to search for pair (2,6)
+2016-09-21T22:20:26.933721	Worker 5	is going to search for pair (2,7)
+2016-09-21T22:20:26.936580	Worker 6	is going to search for pair (2,8)
+2016-09-21T22:20:26.943076	Worker 7	is going to search for pair (2,9)
+2016-09-21T22:20:26.945721	Worker 8	is going to search for pair (2,10)
+2016-09-21T22:20:26.953006	Worker 9	is going to search for pair (2,11)
+2016-09-21T22:20:26.955204	Worker 10	is going to search for pair (2,12)
+2016-09-21T22:20:26.957512	Worker 11	is going to search for pair (2,13)
+2016-09-21T22:20:26.959830	Father		All 15 workers started. PIDs [21076, 21077, 21078, 21079, 21080, 21081, 21082, 21083, 21084, 21085, 21086, 21087, 21088, 21089, 21090]
+2016-09-21T22:20:26.963343	Worker 12	is going to search for pair (2,14)
+2016-09-21T22:20:26.964734	Worker 14	is going to search for pair (2,15)
+2016-09-21T22:20:26.965559	Worker 13	is going to search for pair (2,16)
+2016-09-21T22:20:27.002942	Worker 0	has finished the task (2,2):	2 degree polynomial ring with 2 degree field coefficients: (z+1)*x+(z) = 0x3x+0x2
+2016-09-21T22:20:27.003061	Worker 0	Convert gzip compression to bz2
+2016-09-21T22:20:27.010961	Worker 0	is going to search for pair (3,2)
+2016-09-21T22:20:27.044254	Worker 1	has finished the task (2,3):	2 degree polynomial ring with 3 degree field coefficients: (z^2+z)*x+(z^2) = 0x6x+0x4
+2016-09-21T22:20:27.044398	Worker 1	Convert gzip compression to bz2
+2016-09-21T22:20:27.054368	Worker 1	is going to search for pair (3,3)
+2016-09-21T22:20:27.130494	Worker 0	has finished the task (3,2):	3 degree polynomial ring with 2 degree field coefficients: (z)*x^2+(z)*x+(z+1) = 0x2x^2+0x2x+0x3
+2016-09-21T22:20:27.130558	Worker 0	Convert gzip compression to bz2
+2016-09-21T22:20:27.140048	Worker 0	is going to search for pair (3,4)
+2016-09-21T22:20:27.186573	Worker 2	has finished the task (2,4):	2 degree polynomial ring with 4 degree field coefficients: (z^2+1)*x+(z^2+z) = 0x5x+0x6
+2016-09-21T22:20:27.186663	Worker 2	Convert gzip compression to bz2
+2016-09-21T22:20:27.203444	Worker 2	is going to search for pair (3,5)
+2016-09-21T22:20:27.437145	Worker 4	has finished the task (2,6):	2 degree polynomial ring with 6 degree field coefficients: (z^5+z^4+z^2)*x+(z^2+z+1) = 0x34x+0x7
+2016-09-21T22:20:27.437264	Worker 4	Convert gzip compression to bz2
+2016-09-21T22:20:27.471558	Worker 4	is going to search for pair (3,6)
+2016-09-21T22:20:27.518542	Worker 3	has finished the task (2,5):	2 degree polynomial ring with 5 degree field coefficients: (z^2+1)*x+(z^4+z^2+1) = 0x5x+0x15
+2016-09-21T22:20:27.518697	Worker 3	Convert gzip compression to bz2
+2016-09-21T22:20:27.561159	Worker 3	is going to search for pair (3,7)
+2016-09-21T22:20:27.644492	Worker 1	has finished the task (3,3):	3 degree polynomial ring with 3 degree field coefficients: (z^2)*x^2+(z^2)*x+(z^2+1) = 0x4x^2+0x4x+0x5
+2016-09-21T22:20:27.644642	Worker 1	Convert gzip compression to bz2
+2016-09-21T22:20:27.678593	Worker 1	is going to search for pair (3,8)
+2016-09-21T22:20:28.041190	Worker 0	has finished the task (3,4):	3 degree polynomial ring with 4 degree field coefficients: (z+1)*x^2+(z^3+z^2)*x+(z+1) = 0x3x^2+0xCx+0x3
+2016-09-21T22:20:28.041288	Worker 0	Convert gzip compression to bz2
+2016-09-21T22:20:28.082263	Worker 0	is going to search for pair (3,9)
+2016-09-21T22:20:28.545610	Worker 5	has finished the task (2,7):	2 degree polynomial ring with 7 degree field coefficients: (z^5+z^3+z^2)*x+(z^6+z^5+z^4+z^2) = 0x2Cx+0x74
+2016-09-21T22:20:28.545718	Worker 5	Convert gzip compression to bz2
+2016-09-21T22:20:28.630656	Worker 5	is going to search for pair (3,10)
+2016-09-21T22:20:28.949876	Worker 6	has finished the task (2,8):	2 degree polynomial ring with 8 degree field coefficients: (z^6+z^5+z^4+z^3)*x+(z^7+z^5+z^2+z) = 0x78x+0xA6
+2016-09-21T22:20:28.950022	Worker 6	Convert gzip compression to bz2
+2016-09-21T22:20:29.101469	Worker 6	is going to search for pair (3,11)
+2016-09-21T22:20:29.219869	Worker 2	has finished the task (3,5):	3 degree polynomial ring with 5 degree field coefficients: (z^4+z)*x^2+(z^2+1)*x+(z^4+z+1) = 0x12x^2+0x5x+0x13
+2016-09-21T22:20:29.219941	Worker 2	Convert gzip compression to bz2
+2016-09-21T22:20:29.341480	Worker 2	is going to search for pair (3,12)
+2016-09-21T22:20:29.804021	Worker 7	has finished the task (2,9):	2 degree polynomial ring with 9 degree field coefficients: (z^8+z^6+z^2+z)*x+(z^7+z^6+z^3+z^2+z) = 0x146x+0xCE
+2016-09-21T22:20:29.804134	Worker 7	Convert gzip compression to bz2
+2016-09-21T22:20:29.999920	Worker 7	is going to search for pair (3,13)
+2016-09-21T22:20:31.914809	Worker 8	has finished the task (2,10):	2 degree polynomial ring with 10 degree field coefficients: (z^9+z^7+z^6+z^4+z^3)*x+(z^9+z^7+z^6+z^5+z^4) = 0x2D8x+0x2F0
+2016-09-21T22:20:31.915016	Worker 8	Convert gzip compression to bz2
+2016-09-21T22:20:32.126143	Worker 4	has finished the task (3,6):	3 degree polynomial ring with 6 degree field coefficients: (z^5+z^3+z^2)*x^2+(z^5+z^3+z)*x+(z^4+z^3+1) = 0x2Cx^2+0x2Ax+0x19
+2016-09-21T22:20:32.126248	Worker 4	Convert gzip compression to bz2
+2016-09-21T22:20:32.460875	Worker 4	is going to search for pair (3,14)
+2016-09-21T22:20:32.623148	Worker 8	is going to search for pair (3,15)
+2016-09-21T22:20:32.814539	Worker 9	has finished the task (2,11):	2 degree polynomial ring with 11 degree field coefficients: (z^8+z^5+z^4+z^3+z^2+1)*x+(z^9+z^8+z^6+z+1) = 0x13Dx+0x343
+2016-09-21T22:20:32.814628	Worker 9	Convert gzip compression to bz2
+2016-09-21T22:20:33.385162	Worker 9	is going to search for pair (3,16)
+2016-09-21T22:20:34.449557	Worker 10	has finished the task (2,12):	2 degree polynomial ring with 12 degree field coefficients: (z^9+z^7+z^6+z^4+z+1)*x+(z^11+z^7+z^6+z^4+z^2+z) = 0x2D3x+0x8D6
+2016-09-21T22:20:34.449653	Worker 10	Convert gzip compression to bz2
+2016-09-21T22:20:35.460513	Worker 10	is going to search for pair (4,2)
+2016-09-21T22:20:35.772199	Worker 10	has finished the task (4,2):	4 degree polynomial ring with 2 degree field coefficients: (z)*x^2+(z)*x+(z+1) = 0x2x^2+0x2x+0x3
+2016-09-21T22:20:35.772271	Worker 10	Convert gzip compression to bz2
+2016-09-21T22:20:35.777970	Worker 3	has finished the task (3,7):	3 degree polynomial ring with 7 degree field coefficients: (z^4+z^2+1)*x^2+(z^3+z^2+z+1)*x+(z^6+z^5+z) = 0x15x^2+0xFx+0x62
+2016-09-21T22:20:35.778045	Worker 3	Convert gzip compression to bz2
+2016-09-21T22:20:35.789194	Worker 10	is going to search for pair (4,3)
+2016-09-21T22:20:36.852078	Worker 3	is going to search for pair (4,4)
+2016-09-21T22:20:36.921818	Worker 10	has finished the task (4,3):	4 degree polynomial ring with 3 degree field coefficients: (z+1)*x^3+(z+1)*x^2+(z)*x+(z^2) = 0x3x^3+0x3x^2+0x2x+0x4
+2016-09-21T22:20:36.921921	Worker 10	Convert gzip compression to bz2
+2016-09-21T22:20:37.173711	Worker 10	is going to search for pair (4,5)
+2016-09-21T22:20:39.795484	Worker 1	has finished the task (3,8):	3 degree polynomial ring with 8 degree field coefficients: (z^6+z^3+z+1)*x^2+(z^5+z^4+z^3+z^2)*x+(z^5+z^4+z+1) = 0x4Bx^2+0x3Cx+0x33
+2016-09-21T22:20:39.795700	Worker 1	Convert gzip compression to bz2
+2016-09-21T22:20:40.109089	Worker 3	has finished the task (4,4):	4 degree polynomial ring with 4 degree field coefficients: (z+1)*x^3+(z^3+1)*x^2+(z+1)*x+(z^3+z^2) = 0x3x^3+0x9x^2+0x3x+0xC
+2016-09-21T22:20:40.109159	Worker 3	Convert gzip compression to bz2
+2016-09-21T22:20:40.249841	Worker 3	is going to search for pair (4,6)
+2016-09-21T22:20:40.763912	Worker 11	has finished the task (2,13):	2 degree polynomial ring with 13 degree field coefficients: (z^11+z^8+z^7+z^4+z^3+z^2+z)*x+(z^12+z^10+z^5+z^4+z^3+1) = 0x99Ex+0x1439
+2016-09-21T22:20:40.764020	Worker 11	Convert gzip compression to bz2
+2016-09-21T22:20:41.432891	Worker 1	is going to search for pair (4,7)
+2016-09-21T22:20:41.836562	Worker 11	is going to search for pair (4,8)
+2016-09-21T22:20:44.391097	Worker 12	has finished the task (2,14):	2 degree polynomial ring with 14 degree field coefficients: (z^12+z^11+z^10+z^9+z^6+z^4+z^3)*x+(z^11+z^10+z^8+z^7+z^6+z^4+z^3) = 0x1E58x+0xDD8
+2016-09-21T22:20:44.391185	Worker 12	Convert gzip compression to bz2
+2016-09-21T22:20:45.584342	Worker 2	has finished the task (3,12):	3 degree polynomial ring with 12 degree field coefficients: (z^11+z^10+z^9+z^6+z^5+z^4)*x^2+(z^11+z^7+z^6+z^5+z^2+z)*x+(z^10+z^4+z^3+z^2+z+1) = 0xE70x^2+0x8E6x+0x41F
+2016-09-21T22:20:45.584433	Worker 2	Convert gzip compression to bz2
+2016-09-21T22:20:47.262101	Worker 2	is going to search for pair (4,9)
+2016-09-21T22:20:47.601707	Worker 0	has finished the task (3,9):	3 degree polynomial ring with 9 degree field coefficients: (z^6+z^5+z^3+z)*x^2+(z^7+z^6+z^2+z+1)*x+(z^7+z^5+z^4+z^2) = 0x6Ax^2+0xC7x+0xB4
+2016-09-21T22:20:47.601830	Worker 0	Convert gzip compression to bz2
+2016-09-21T22:20:48.111816	Worker 12	is going to search for pair (4,10)
+2016-09-21T22:20:48.121544	Worker 10	has finished the task (4,5):	4 degree polynomial ring with 5 degree field coefficients: (z^4+z+1)*x^3+(z^3+1)*x^2+(z^3+z+1)*x+(z^3+1) = 0x13x^3+0x9x^2+0xBx+0x9
+2016-09-21T22:20:48.121652	Worker 10	Convert gzip compression to bz2
+2016-09-21T22:20:48.726176	Worker 10	is going to search for pair (4,11)
+2016-09-21T22:20:51.164668	Worker 3	has finished the task (4,6):	4 degree polynomial ring with 6 degree field coefficients: (z^3+z^2+1)*x^3+(z^5+z^3+z^2)*x^2+(z^4+z^2+z)*x+(z^5+z^4+z^2) = 0xDx^3+0x2Cx^2+0x16x+0x34
+2016-09-21T22:20:51.164778	Worker 3	Convert gzip compression to bz2
+2016-09-21T22:20:52.203795	Worker 3	is going to search for pair (4,12)
+2016-09-21T22:20:52.463492	Worker 0	is going to search for pair (4,13)
+2016-09-21T22:20:53.738003	Worker 5	has finished the task (3,10):	3 degree polynomial ring with 10 degree field coefficients: (z^7+z^6+z^5+z^3+z)*x^2+(z^7+z^6+z^5+z^2+1)*x+(z^7+z^6+z^5+z^2+1) = 0xEAx^2+0xE5x+0xE5
+2016-09-21T22:20:53.738115	Worker 5	Convert gzip compression to bz2
+2016-09-21T22:20:53.757193	Worker 14	has finished the task (2,15):	2 degree polynomial ring with 15 degree field coefficients: (z^14+z^13+z^7+z^6+z^4+z^3+z^2)*x+(z^13+z^11+z^10+z^8+z^7+z^6+z^3+z^2) = 0x60DCx+0x2DCC
+2016-09-21T22:20:53.757287	Worker 14	Convert gzip compression to bz2
+2016-09-21T22:20:56.847473	Worker 14	is going to search for pair (4,14)
+2016-09-21T22:20:56.898275	Worker 13	has finished the task (2,16):	2 degree polynomial ring with 16 degree field coefficients: (z^13+z^12+z^8+z^7+z^3+z^2+z+1)*x+(z^14+z^13+z^12+z^10+z^9+z^7+z^5+z^3) = 0x318Fx+0x76A8
+2016-09-21T22:20:56.898402	Worker 13	Convert gzip compression to bz2
+2016-09-21T22:21:02.089589	Worker 5	is going to search for pair (4,15)
+2016-09-21T22:21:03.505871	Worker 13	is going to search for pair (4,16)
+2016-09-21T22:21:05.918861	Worker 6	has finished the task (3,11):	3 degree polynomial ring with 11 degree field coefficients: (z^10+z^7+z^4+z^2+z)*x^2+(z^9+z^8+z^6+z^2+z+1)*x+(z^9+z^8+z^6+z^3+z) = 0x496x^2+0x347x+0x34A
+2016-09-21T22:21:05.918948	Worker 6	Convert gzip compression to bz2
+2016-09-21T22:21:08.305141	Worker 1	has finished the task (4,7):	4 degree polynomial ring with 7 degree field coefficients: (z^6+z^5+z+1)*x^3+(z^6+z^4+z^3)*x^2+(z^6+z^5+z^4+z)*x+(z^6+z+1) = 0x63x^3+0x58x^2+0x72x+0x43
+2016-09-21T22:21:08.305274	Worker 1	Convert gzip compression to bz2
+2016-09-21T22:21:10.370221	Worker 2	has finished the task (4,9):	4 degree polynomial ring with 9 degree field coefficients: (z^7+z^6+z^4+z^2+1)*x^3+(z^4+z^2+z+1)*x^2+(z^8+z^5+z^4+z+1)*x+(z^8+z^6+z^2+1) = 0xD5x^3+0x17x^2+0x133x+0x145
+2016-09-21T22:21:10.370303	Worker 2	Convert gzip compression to bz2
+2016-09-21T22:21:11.623266	Worker 2	is going to search for pair (5,2)
+2016-09-21T22:21:12.893901	Worker 1	is going to search for pair (5,3)
+2016-09-21T22:21:13.546881	Worker 2	has finished the task (5,2):	5 degree polynomial ring with 2 degree field coefficients: x^4+x^3+x^2+(z)*x+(z) = x^4+x^3+x^2+0x2x+0x2
+2016-09-21T22:21:13.546995	Worker 2	Convert gzip compression to bz2
+2016-09-21T22:21:13.602102	Worker 12	has finished the task (4,10):	4 degree polynomial ring with 10 degree field coefficients: (z^9+z^8+z^2+1)*x^3+(z^9+z^4+z^3+z+1)*x^2+(z^9+z^7+z^6+z^4+z^3+1)*x+(z^8+z^7+z^5+z+1) = 0x305x^3+0x21Bx^2+0x2D9x+0x1A3
+2016-09-21T22:21:13.602222	Worker 12	Convert gzip compression to bz2
+2016-09-21T22:21:13.631384	Worker 2	is going to search for pair (5,4)
+2016-09-21T22:21:15.434374	Worker 12	is going to search for pair (5,5)
+2016-09-21T22:21:17.474909	Worker 11	has finished the task (4,8):	4 degree polynomial ring with 8 degree field coefficients: (z^7+z^6+z^3+z)*x^3+(z^7+z^5+z^4+z^3)*x^2+(z^7+z^6+z^3+1)*x+(z^5+z^4+z^3+1) = 0xCAx^3+0xB8x^2+0xC9x+0x39
+2016-09-21T22:21:17.475043	Worker 11	Convert gzip compression to bz2
+2016-09-21T22:21:18.848519	Worker 10	has finished the task (4,11):	4 degree polynomial ring with 11 degree field coefficients: (z^9+z^6+z^3+z^2+z)*x^3+(z^8+z^6+z^5+z^4+z^3+z)*x^2+(z^10+z^3+z^2+z+1)*x+(z^7+z^6+z^5+z^4+z^2+1) = 0x24Ex^3+0x17Ax^2+0x40Fx+0xF5
+2016-09-21T22:21:18.848614	Worker 10	Convert gzip compression to bz2
+2016-09-21T22:21:19.421905	Worker 1	has finished the task (5,3):	5 degree polynomial ring with 3 degree field coefficients: (z^2+1)*x^4+(z^2)*x^3+(z+1)*x^2+(z^2)*x+(z^2) = 0x5x^4+0x4x^3+0x3x^2+0x4x+0x4
+2016-09-21T22:21:19.422012	Worker 1	Convert gzip compression to bz2
+2016-09-21T22:21:20.328403	Worker 1	is going to search for pair (5,6)
+2016-09-21T22:21:20.679567	Worker 10	is going to search for pair (5,7)
+2016-09-21T22:21:23.031765	Worker 3	has finished the task (4,12):	4 degree polynomial ring with 12 degree field coefficients: (z^9+z^6+z^5+z^3+z^2+1)*x^3+(z^10+z^8+z^6+z^5+z^3+1)*x^2+(z^11+z^10+z^7+z^6+z^2+z)*x+(z^10+z^4+z^3+z^2+z+1) = 0x26Dx^3+0x569x^2+0xCC6x+0x41F
+2016-09-21T22:21:23.031911	Worker 3	Convert gzip compression to bz2
+2016-09-21T22:21:23.354500	Worker 6	is going to search for pair (5,8)
+2016-09-21T22:21:24.327173	Worker 7	has finished the task (3,13):	3 degree polynomial ring with 13 degree field coefficients: (z^8+z^7+z^5+z^4+z^2+1)*x^2+(z^12+z^11+z^10+z^5+z^4+z^2+z)*x+(z^10+z^8+z^5+z^4+z^2+z) = 0x1B5x^2+0x1C36x+0x536
+2016-09-21T22:21:24.327260	Worker 7	Convert gzip compression to bz2
+2016-09-21T22:21:24.802505	Worker 3	is going to search for pair (5,9)
+2016-09-21T22:21:24.825160	Worker 11	is going to search for pair (5,10)
+2016-09-21T22:21:27.058365	Worker 4	has finished the task (3,14):	3 degree polynomial ring with 14 degree field coefficients: (z^13+z^12+z^11+z^9+z^8+z^5+1)*x^2+(z^12+z^11+z^9+z^7+z^6+z^5)*x+(z^13+z^11+z^10+z^9+z^8+z^5+z^3+z^2) = 0x3B21x^2+0x1AE0x+0x2F2C
+2016-09-21T22:21:27.058519	Worker 4	Convert gzip compression to bz2
+2016-09-21T22:21:29.117188	Worker 7	is going to search for pair (5,11)
+2016-09-21T22:21:31.121892	Worker 2	has finished the task (5,4):	5 degree polynomial ring with 4 degree field coefficients: (z+1)*x^4+(z+1)*x^3+(z+1)*x^2+(z+1)*x+(z^2+1) = 0x3x^4+0x3x^3+0x3x^2+0x3x+0x5
+2016-09-21T22:21:31.121994	Worker 2	Convert gzip compression to bz2
+2016-09-21T22:21:31.407571	Worker 4	is going to search for pair (5,12)
+2016-09-21T22:21:32.535553	Worker 2	is going to search for pair (5,13)
+2016-09-21T22:21:32.555458	Worker 8	has finished the task (3,15):	3 degree polynomial ring with 15 degree field coefficients: (z^13+z^11+z^10+z^8+z^4+z^3+z)*x^2+(z^14+z^11+z^10+z^8+z^6+z^5+z^3+z^2)*x+(z^14+z^12+z^11+z^9+z^6+z^4+1) = 0x2D1Ax^2+0x4D6Cx+0x5A51
+2016-09-21T22:21:32.555561	Worker 8	Convert gzip compression to bz2
+2016-09-21T22:21:35.271142	Worker 12	has finished the task (5,5):	5 degree polynomial ring with 5 degree field coefficients: (z^2+z)*x^4+(z^4+1)*x^3+(z^2+z)*x^2+(z^2+z+1)*x+(z^4+z^3+z) = 0x6x^4+0x11x^3+0x6x^2+0x7x+0x1A
+2016-09-21T22:21:35.271252	Worker 12	Convert gzip compression to bz2
+2016-09-21T22:21:37.080467	Worker 12	is going to search for pair (5,14)
+2016-09-21T22:21:37.350809	Worker 8	is going to search for pair (5,15)
+2016-09-21T22:21:40.661602	Worker 9	has finished the task (3,16):	3 degree polynomial ring with 16 degree field coefficients: (z^15+z^13+z^12+z^8+z^3+z^2+z)*x^2+(z^14+z^13+z^12+z^7+z^5+z^4+z^3+1)*x+(z^14+z^12+z^10+z^9+z^8+z^7+z^5+z^3+z) = 0xB10Ex^2+0x70B9x+0x57AA
+2016-09-21T22:21:40.661729	Worker 9	Convert gzip compression to bz2
+2016-09-21T22:21:45.464489	Worker 9	is going to search for pair (5,16)
+2016-09-21T22:21:45.653790	Worker 10	has finished the task (5,7):	5 degree polynomial ring with 7 degree field coefficients: (z^5+z^4+z)*x^4+(z^4+z^2+z+1)*x^3+(z^6+z+1)*x^2+(z^6+z^5+z^3)*x+(z^6+z^2+z+1) = 0x32x^4+0x17x^3+0x43x^2+0x68x+0x47
+2016-09-21T22:21:45.653908	Worker 10	Convert gzip compression to bz2
+2016-09-21T22:21:46.647694	Worker 10	is going to search for pair (6,2)
+2016-09-21T22:21:49.582633	Worker 10	has finished the task (6,2):	6 degree polynomial ring with 2 degree field coefficients: (z+1)*x^4+x^3+(z)*x^2+x+(z) = 0x3x^4+x^3+0x2x^2+x+0x2
+2016-09-21T22:21:49.582713	Worker 10	Convert gzip compression to bz2
+2016-09-21T22:21:49.729202	Worker 10	is going to search for pair (6,3)
+2016-09-21T22:21:51.051230	Worker 6	has finished the task (5,8):	5 degree polynomial ring with 8 degree field coefficients: (z^5+z^4+z+1)*x^4+(z^5+z^4+z^3+z^2)*x^3+(z^5+z^4+z^2+1)*x^2+(z^5+z^4+z^3+z^2)*x+(z^5+z^4+z^3+z) = 0x33x^4+0x3Cx^3+0x35x^2+0x3Cx+0x3A
+2016-09-21T22:21:51.051340	Worker 6	Convert gzip compression to bz2
+2016-09-21T22:21:52.745932	Worker 6	is going to search for pair (6,4)
+2016-09-21T22:21:56.079294	Worker 1	has finished the task (5,6):	5 degree polynomial ring with 6 degree field coefficients: (z^5+z^3+1)*x^4+(z^5+z^4+1)*x^3+(z^4+z^3+z)*x^2+(z^4+z^2+z)*x+(z^5+z^3+z^2) = 0x29x^4+0x31x^3+0x1Ax^2+0x16x+0x2C
+2016-09-21T22:21:56.079406	Worker 1	Convert gzip compression to bz2
+2016-09-21T22:21:59.440223	Worker 1	is going to search for pair (6,5)
+2016-09-21T22:22:00.070526	Worker 3	has finished the task (5,9):	5 degree polynomial ring with 9 degree field coefficients: (z^8+z^7+z^6+z^3+1)*x^4+(z^6+z^4+z^2+z+1)*x^3+(z^5+z^4+z)*x^2+(z^7+z^4+z^3+z^2+z)*x+(z^8+z^4+z^3+z^2) = 0x1C9x^4+0x57x^3+0x32x^2+0x9Ex+0x11C
+2016-09-21T22:22:00.070615	Worker 3	Convert gzip compression to bz2
+2016-09-21T22:22:02.060492	Worker 3	is going to search for pair (6,6)
+2016-09-21T22:22:06.029688	Worker 11	has finished the task (5,10):	5 degree polynomial ring with 10 degree field coefficients: (z^9+z^8+z^7+z^5+z)*x^4+(z^8+z^5+z^4+z^3+z^2+z)*x^3+(z^9+z^6+z^5+z^4+z^2)*x^2+(z^9+z^6+z+1)*x+(z^7+z^5+z^4+z^3+z^2) = 0x3A2x^4+0x13Ex^3+0x274x^2+0x243x+0xBC
+2016-09-21T22:22:06.029783	Worker 11	Convert gzip compression to bz2
+2016-09-21T22:22:09.347650	Worker 11	is going to search for pair (6,7)
+2016-09-21T22:22:09.650005	Worker 10	has finished the task (6,3):	6 degree polynomial ring with 3 degree field coefficients: (z^2+z)*x^4+(z^2+1)*x^3+(z^2+1)*x^2+(z^2+z)*x+(z) = 0x6x^4+0x5x^3+0x5x^2+0x6x+0x2
+2016-09-21T22:22:09.650146	Worker 10	Convert gzip compression to bz2
+2016-09-21T22:22:10.557605	Worker 10	is going to search for pair (6,8)
+2016-09-21T22:22:24.655071	Worker 7	has finished the task (5,11):	5 degree polynomial ring with 11 degree field coefficients: (z^10+z^5+z^4+z+1)*x^4+(z^9+z^6+z^5+z^3+z^2+z)*x^3+(z^10+z^9+z^8+z^5+z^3+1)*x^2+(z^9+z^8+z^6+z^3+z^2)*x+(z^9+z^8+z^6+z^4+z^2) = 0x433x^4+0x26Ex^3+0x729x^2+0x34Cx+0x354
+2016-09-21T22:22:24.655158	Worker 7	Convert gzip compression to bz2
+2016-09-21T22:22:27.597804	Worker 7	is going to search for pair (6,9)
+2016-09-21T22:22:28.536627	Worker 3	has finished the task (6,6):	6 degree polynomial ring with 6 degree field coefficients: (z^5+z^3+z+1)*x^5+(z^3+1)*x^4+(z^4+z^3+z^2+1)*x^3+(z^5+z+1)*x^2+(z^5+z^2)*x+(z^5+z^3+z^2) = 0x2Bx^5+0x9x^4+0x1Dx^3+0x23x^2+0x24x+0x2C
+2016-09-21T22:22:28.536711	Worker 3	Convert gzip compression to bz2
+2016-09-21T22:22:29.351453	Worker 3	is going to search for pair (6,10)
+2016-09-21T22:22:31.053943	Worker 4	has finished the task (5,12):	5 degree polynomial ring with 12 degree field coefficients: (z^9+z^7+z^5+z^4+z+1)*x^4+(z^6+z^4+z^3+z^2+z+1)*x^3+(z^10+z^9+z^7+z^4+z^3)*x^2+(z^8+z^4+z^3+z^2+z+1)*x+(z^10+z^8+z^7+z^6+z^5+z^4+z^2) = 0x2B3x^4+0x5Fx^3+0x698x^2+0x11Fx+0x5F4
+2016-09-21T22:22:31.054045	Worker 4	Convert gzip compression to bz2
+2016-09-21T22:22:33.580575	Worker 6	has finished the task (6,4):	6 degree polynomial ring with 4 degree field coefficients: (z^2+z)*x^5+(z^3+1)*x^4+(z+1)*x^3+(z+1)*x^2+(z+1)*x+(z+1) = 0x6x^5+0x9x^4+0x3x^3+0x3x^2+0x3x+0x3
+2016-09-21T22:22:33.580742	Worker 6	Convert gzip compression to bz2
+2016-09-21T22:22:35.555918	Worker 4	is going to search for pair (6,11)
+2016-09-21T22:22:39.425542	Worker 6	is going to search for pair (6,12)
+2016-09-21T22:22:45.650030	Worker 11	has finished the task (6,7):	6 degree polynomial ring with 7 degree field coefficients: (z^5+z^2+z)*x^5+(z^6+z^5+z^2+1)*x^4+(z^6+z^4)*x^3+(z^6+z^5+z^2+z)*x^2+(z^6+z^4+z^2+1)*x+(z^4+z^3+z^2+1) = 0x26x^5+0x65x^4+0x50x^3+0x66x^2+0x55x+0x1D
+2016-09-21T22:22:45.650169	Worker 11	Convert gzip compression to bz2
+2016-09-21T22:22:47.352061	Worker 11	is going to search for pair (6,13)
+2016-09-21T22:22:52.160567	Worker 10	has finished the task (6,8):	6 degree polynomial ring with 8 degree field coefficients: (z^6+z^5+z^3+z^2+1)*x^5+(z^4+z^3+z^2+z+1)*x^4+(z^5+z^3+z^2+z)*x^3+(z^6+z^5+z)*x^2+(z^6+z^5+z)*x+(z^7+z^3+z^2+1) = 0x6Dx^5+0x1Fx^4+0x2Ex^3+0x62x^2+0x62x+0x8D
+2016-09-21T22:22:52.160665	Worker 10	Convert gzip compression to bz2
+2016-09-21T22:22:52.570434	Worker 1	has finished the task (6,5):	6 degree polynomial ring with 5 degree field coefficients: (z^4+z^2)*x^5+(z^4+1)*x^4+(z^3+z+1)*x^3+(z^4+z^2+1)*x^2+(z^4+1)*x+(z^3+z^2+z) = 0x14x^5+0x11x^4+0xBx^3+0x15x^2+0x11x+0xE
+2016-09-21T22:22:52.570566	Worker 1	Convert gzip compression to bz2
+2016-09-21T22:22:54.702097	Worker 10	is going to search for pair (6,14)
+2016-09-21T22:23:01.620017	Worker 1	is going to search for pair (6,15)
+2016-09-21T22:23:11.569000	Worker 0	has finished the task (4,13):	4 degree polynomial ring with 13 degree field coefficients: (z^11+z^10+z^9+z^8+z^5+z^4+z^2)*x^3+(z^11+z^10+z^8+z^6+z^5+z)*x^2+(z^9+z^6+z^3+z^2+z+1)*x+(z^12+z^11+z^10+z^9+z^8+z^7+z^3) = 0xF34x^3+0xD62x^2+0x24Fx+0x1F88
+2016-09-21T22:23:11.569095	Worker 0	Convert gzip compression to bz2
+2016-09-21T22:23:23.492709	Worker 0	is going to search for pair (6,16)
+2016-09-21T22:23:27.461346	Worker 14	has finished the task (4,14):	4 degree polynomial ring with 14 degree field coefficients: (z^11+z^6+z^4+z^2+z+1)*x^3+(z^12+z^9+z^7+z^5+z^4+z)*x^2+(z^13+z^11+z^8+z^7+z^6+z^4+z^3+1)*x+(z^13+z^11+z^10+z^9+z^7+z^5+z^3+z^2) = 0x857x^3+0x12B2x^2+0x29D9x+0x2EAC
+2016-09-21T22:23:27.461437	Worker 14	Convert gzip compression to bz2
+2016-09-21T22:23:31.526635	Worker 7	has finished the task (6,9):	6 degree polynomial ring with 9 degree field coefficients: (z^8+z^7+z^6+z^3+z^2)*x^5+(z^4+z^3+z^2+z+1)*x^4+(z^7+z^6+z^3+z^2+1)*x^3+(z^6+z^4+1)*x^2+(z^7+z^4+z^3+z^2+1)*x+(z^8+z^6+z^3+1) = 0x1CCx^5+0x1Fx^4+0xCDx^3+0x51x^2+0x9Dx+0x149
+2016-09-21T22:23:31.526722	Worker 7	Convert gzip compression to bz2
+2016-09-21T22:23:36.638717	Worker 7	is going to search for pair (7,2)
+2016-09-21T22:23:45.075518	Worker 7	has finished the task (7,2):	7 degree polynomial ring with 2 degree field coefficients: (z+1)*x^4+(z+1)*x^3+(z)*x^2+(z)*x+1 = 0x3x^4+0x3x^3+0x2x^2+0x2x+1
+2016-09-21T22:23:45.075633	Worker 7	Convert gzip compression to bz2
+2016-09-21T22:23:45.657068	Worker 7	is going to search for pair (7,3)
+2016-09-21T22:23:48.327577	Worker 14	is going to search for pair (7,4)
+2016-09-21T22:23:52.807676	Worker 3	has finished the task (6,10):	6 degree polynomial ring with 10 degree field coefficients: (z^7+z^2+z+1)*x^5+(z^9+z^8+z^7+z^2+1)*x^4+(z^9+z^8+z^5+z^4+z)*x^3+(z^8+z^7+z^5+z^4+z^3+1)*x^2+(z^9+z^8+z^4+z+1)*x+(z^9+z^6+z^5+z+1) = 0x87x^5+0x385x^4+0x332x^3+0x1B9x^2+0x313x+0x263
+2016-09-21T22:23:52.807759	Worker 3	Convert gzip compression to bz2
+2016-09-21T22:24:12.458039	Worker 3	is going to search for pair (7,5)
+2016-09-21T22:24:13.009456	Worker 13	has finished the task (4,16):	4 degree polynomial ring with 16 degree field coefficients: (z^13+z^5+z^4+z^3+z^2+z+1)*x^3+(z^15+z^14+z^13+z^12+z^10+z^9+z^5+z^3+z^2)*x^2+(z^13+z^11+z^10+z^8+z^5+z^4+1)*x+(z^15+z^12+z^11+z^10+z^8+z^7+z^6+z^3+z^2) = 0x203Fx^3+0xF62Cx^2+0x2D31x+0x9DCC
+2016-09-21T22:24:13.009556	Worker 13	Convert gzip compression to bz2
+2016-09-21T22:24:15.736652	Worker 6	has finished the task (6,12):	6 degree polynomial ring with 12 degree field coefficients: (z^10+z^9+z^5+z^4+z^3+z)*x^5+(z^10+z^5+z^4+z^2+z)*x^4+(z^9+z^7+z^4+z^2+z)*x^3+(z^11+z^10+z^7+z^5+z^4+z^3+z^2)*x^2+(z^9+z^7+z^6+z^3+z^2+z+1)*x+(z^11+z^9+z^7+z^4+z^3+z^2) = 0x63Ax^5+0x436x^4+0x296x^3+0xCBCx^2+0x2CFx+0xA9C
+2016-09-21T22:24:15.736783	Worker 6	Convert gzip compression to bz2
+2016-09-21T22:24:17.604085	Worker 4	has finished the task (6,11):	6 degree polynomial ring with 11 degree field coefficients: (z^10+z^7+z^6+z^5+z^2)*x^5+(z^10+z^9+z^5+z^2+1)*x^4+(z^9+z^8+z^7+z^6+z^4+z)*x^3+(z^8+z^7+z^6+z^2+1)*x^2+(z^10+z^9+z^7+z^6+z^4+z^3+z)*x+(z^10+z^5+z^4+z+1) = 0x4E4x^5+0x625x^4+0x3D2x^3+0x1C5x^2+0x6DAx+0x433
+2016-09-21T22:24:17.604210	Worker 4	Convert gzip compression to bz2
+2016-09-21T22:24:24.538565	Worker 4	is going to search for pair (7,6)
+2016-09-21T22:24:28.513987	Worker 6	is going to search for pair (7,7)
+2016-09-21T22:24:40.055349	Worker 13	is going to search for pair (7,8)
+2016-09-21T22:24:45.149968	Worker 3	has finished the task (7,5):	7 degree polynomial ring with 5 degree field coefficients: (z^2+z)*x^6+(z^2+1)*x^5+(z^2+1)*x^4+(z^4+z^3+1)*x^3+(z^3+z^2+1)*x^2+(z^2+1)*x+(z^4+z^3+z) = 0x6x^6+0x5x^5+0x5x^4+0x19x^3+0xDx^2+0x5x+0x1A
+2016-09-21T22:24:45.150058	Worker 3	Convert gzip compression to bz2
+2016-09-21T22:24:46.394850	Worker 3	is going to search for pair (7,9)
+2016-09-21T22:24:54.721828	Worker 5	has finished the task (4,15):	4 degree polynomial ring with 15 degree field coefficients: (z^14+z^11+z^9+z^8+z^7+z^3+1)*x^3+(z^14+z^12+z^10+z^8+z^7+z^3+z)*x^2+(z^14+z^12+z^10+z^9+z^7+z^6+z^5+z^4)*x+(z^13+z^12+z^11+z^10+z^8+z^6+z^5+z^3) = 0x4B89x^3+0x558Ax^2+0x56F0x+0x3D68
+2016-09-21T22:24:54.721942	Worker 5	Convert gzip compression to bz2
+2016-09-21T22:25:03.710844	Worker 4	has finished the task (7,6):	7 degree polynomial ring with 6 degree field coefficients: (z^5+z^3+z^2+z)*x^6+(z^5+z^4+z)*x^5+(z^4+z^2+z+1)*x^4+(z^4+z)*x^3+(z^3+z^2+1)*x^2+(z^2+z)*x+(z^4+z^3+z^2) = 0x2Ex^6+0x32x^5+0x17x^4+0x12x^3+0xDx^2+0x6x+0x1C
+2016-09-21T22:25:03.710972	Worker 4	Convert gzip compression to bz2
+2016-09-21T22:25:05.113176	Worker 4	is going to search for pair (7,10)
+2016-09-21T22:25:05.648965	Worker 14	has finished the task (7,4):	7 degree polynomial ring with 4 degree field coefficients: (z+1)*x^6+(z+1)*x^5+(z+1)*x^4+(z+1)*x^3+(z+1)*x^2+(z+1)*x+(z^2+z) = 0x3x^6+0x3x^5+0x3x^4+0x3x^3+0x3x^2+0x3x+0x6
+2016-09-21T22:25:05.649070	Worker 14	Convert gzip compression to bz2
+2016-09-21T22:25:19.286839	Worker 5	is going to search for pair (7,11)
+2016-09-21T22:25:20.580165	Worker 6	has finished the task (7,7):	7 degree polynomial ring with 7 degree field coefficients: (z^6+z^3+z^2)*x^6+(z^5+z^4+z)*x^5+(z^5+z+1)*x^4+(z^5+z^4+z^3+z^2+z)*x^3+(z^6+z^5+z^2)*x^2+(z^5+z^2+z+1)*x+(z^6+z^3+z) = 0x4Cx^6+0x32x^5+0x23x^4+0x3Ex^3+0x64x^2+0x27x+0x4A
+2016-09-21T22:25:20.580255	Worker 6	Convert gzip compression to bz2
+2016-09-21T22:25:22.568678	Worker 6	is going to search for pair (7,12)
+2016-09-21T22:25:22.685641	Worker 14	is going to search for pair (7,13)
+2016-09-21T22:25:24.033053	Worker 7	has finished the task (7,3):	7 degree polynomial ring with 3 degree field coefficients: (z^2)*x^5+(z+1)*x^4+(z^2+z)*x^3+(z^2+z)*x^2+(z^2)*x+(z^2+1) = 0x4x^5+0x3x^4+0x6x^3+0x6x^2+0x4x+0x5
+2016-09-21T22:25:24.033168	Worker 7	Convert gzip compression to bz2
+2016-09-21T22:25:46.942351	Worker 13	has finished the task (7,8):	7 degree polynomial ring with 8 degree field coefficients: (z^4+z^3+z^2+z+1)*x^6+(z^5+z^2+z)*x^5+(z^4+z^3+z^2+1)*x^4+(z^7+z^5+z^2+z)*x^3+(z^6+z^5+z^3+z^2)*x^2+(z^7+z^6+z^2+z)*x+(z^7+z^6+z^2+1) = 0x1Fx^6+0x26x^5+0x1Dx^4+0xA6x^3+0x6Cx^2+0xC6x+0xC5
+2016-09-21T22:25:46.942490	Worker 13	Convert gzip compression to bz2
+2016-09-21T22:25:51.091117	Worker 13	is going to search for pair (7,14)
+2016-09-21T22:25:51.246767	Worker 7	is going to search for pair (7,15)
+2016-09-21T22:26:23.030055	Worker 3	has finished the task (7,9):	7 degree polynomial ring with 9 degree field coefficients: (z^8+z^7+z^3+z^2+1)*x^6+(z^8+z^6+z^3+z^2)*x^5+(z^8+z^5+z^3+1)*x^4+(z^4+z^2+z+1)*x^3+(z^8+z^5+z^4+z^3+z)*x^2+(z^8+z^6+z^3+z^2+1)*x+(z^5+z^4+z^3+1) = 0x18Dx^6+0x14Cx^5+0x129x^4+0x17x^3+0x13Ax^2+0x14Dx+0x39
+2016-09-21T22:26:23.030322	Worker 3	Convert gzip compression to bz2
+2016-09-21T22:26:29.230686	Worker 3	is going to search for pair (7,16)
+2016-09-21T22:26:46.834619	Worker 4	has finished the task (7,10):	7 degree polynomial ring with 10 degree field coefficients: (z^9+z^5+z^2+z+1)*x^6+(z^8+z^4+z^2+1)*x^5+(z^9+z^8+z^3+z^2+z+1)*x^4+(z^8+z^2+z+1)*x^3+(z^9+z^8+z^6+z^3+z^2+z)*x^2+(z^9+z^4+z^2+z+1)*x+(z^6+z^5+z^4+z^2+z) = 0x227x^6+0x115x^5+0x30Fx^4+0x107x^3+0x34Ex^2+0x217x+0x76
+2016-09-21T22:26:46.834732	Worker 4	Convert gzip compression to bz2
+2016-09-21T22:26:53.407480	Worker 4	is going to search for pair (8,2)
+2016-09-21T22:27:07.438950	Worker 4	has finished the task (8,2):	8 degree polynomial ring with 2 degree field coefficients: (z)*x^7+x^6+(z)*x^5+(z)*x^4+(z)*x^3+(z)*x^2+(z)*x+(z) = 0x2x^7+x^6+0x2x^5+0x2x^4+0x2x^3+0x2x^2+0x2x+0x2
+2016-09-21T22:27:07.439119	Worker 4	Convert gzip compression to bz2
+2016-09-21T22:27:08.914901	Worker 4	is going to search for pair (8,3)
+2016-09-21T22:27:39.922972	Worker 12	has finished the task (5,14):	5 degree polynomial ring with 14 degree field coefficients: (z^12+z^11+z^10+z^8+z^5+z^3+z)*x^4+(z^11+z^9+z^8+z^7+z^6+z^3+z^2+z)*x^3+(z^13+z^7+z^6+z^5+z+1)*x^2+(z^12+z^11+z^9+z^6+z^4+1)*x+(z^13+z^12+z^9+z^6+z^4+z^3+z^2+1) = 0x1D2Ax^4+0xBCEx^3+0x20E3x^2+0x1A51x+0x325D
+2016-09-21T22:27:39.923081	Worker 12	Convert gzip compression to bz2
+2016-09-21T22:27:52.351264	Worker 5	has finished the task (7,11):	7 degree polynomial ring with 11 degree field coefficients: (z^5+z^3+z^2+z+1)*x^6+(z^7+z^6+z^5+z^4+1)*x^5+(z^10+z^9+z^8+z^6+z^4+z^2+z)*x^4+(z^10+z^9+z^7+z^2+z)*x^3+(z^10+z^5+z^4+z^2+z)*x^2+(z^6+z^5+z^4+z^2+z+1)*x+(z^10+z^8+z^7+z^4+1) = 0x2Fx^6+0xF1x^5+0x756x^4+0x686x^3+0x436x^2+0x77x+0x591
+2016-09-21T22:27:52.351364	Worker 5	Convert gzip compression to bz2
+2016-09-21T22:28:15.321988	Worker 5	is going to search for pair (8,4)
+2016-09-21T22:28:30.234970	Worker 6	has finished the task (7,12):	7 degree polynomial ring with 12 degree field coefficients: (z^11+z^9+z^6+z^5+z^4+z^3+z)*x^6+(z^11+z^10+z^9+z^7+z^3+z)*x^5+(z^8+z^7+z^6+z^4+z^3+1)*x^4+(z^9+z^8+z^3+z+1)*x^3+(z^9+z^8+z^6+z^5+z^4+1)*x^2+(z^11+z^10+z^8+z^7+z^4+1)*x+(z^11+z^9+z^5+z^3+z^2+z) = 0xA7Ax^6+0xE8Ax^5+0x1D9x^4+0x30Bx^3+0x371x^2+0xD91x+0xA2E
+2016-09-21T22:28:30.235079	Worker 6	Convert gzip compression to bz2
+2016-09-21T22:28:37.070338	Worker 4	has finished the task (8,3):	8 degree polynomial ring with 3 degree field coefficients: (z+1)*x^6+(z^2+z)*x^5+(z^2+1)*x^4+(z+1)*x^3+(z^2)*x^2+(z^2+z)*x+(z^2) = 0x3x^6+0x6x^5+0x5x^4+0x3x^3+0x4x^2+0x6x+0x4
+2016-09-21T22:28:37.070470	Worker 4	Convert gzip compression to bz2
+2016-09-21T22:28:43.911464	Worker 2	has finished the task (5,13):	5 degree polynomial ring with 13 degree field coefficients: (z^11+z^10+z^9+z^8+z^7+z^2)*x^4+(z^12+z^7+z^6+z^4+z^3+z)*x^3+(z^12+z^10+z^5+z^2+z+1)*x^2+(z^12+z^11+z^9+z^7+z^5+z^4+z^3)*x+(z^12+z^6+z^5+z^4+z^3+z^2+z) = 0xF84x^4+0x10DAx^3+0x1427x^2+0x1AB8x+0x107E
+2016-09-21T22:28:43.911637	Worker 2	Convert gzip compression to bz2
+2016-09-21T22:28:49.521484	Worker 4	is going to search for pair (8,5)
+2016-09-21T22:29:21.074237	Worker 6	is going to search for pair (8,6)
+2016-09-21T22:29:37.158585	Worker 4	has finished the task (8,5):	8 degree polynomial ring with 5 degree field coefficients: (z^3)*x^7+(z^2+z+1)*x^6+(z^2+1)*x^5+(z^4+z^3+z)*x^4+(z^3+z^2)*x^3+(z^4+z^3+z)*x^2+(z^2+z+1)*x+(z^4+z+1) = 0x8x^7+0x7x^6+0x5x^5+0x1Ax^4+0xCx^3+0x1Ax^2+0x7x+0x13
+2016-09-21T22:29:37.158698	Worker 4	Convert gzip compression to bz2
+2016-09-21T22:29:39.097685	Worker 4	is going to search for pair (8,7)
+2016-09-21T22:29:44.560681	Worker 2	is going to search for pair (8,8)
+2016-09-21T22:29:45.379912	Worker 12	is going to search for pair (8,9)
+2016-09-21T22:30:12.846916	Worker 6	has finished the task (8,6):	8 degree polynomial ring with 6 degree field coefficients: (z^5+z^3+z^2+1)*x^7+(z^4+z^2+z)*x^6+(z^3+z^2+1)*x^5+(z^4+z^3+z^2)*x^4+(z^5+z+1)*x^3+(z^4+z^3+z)*x^2+(z^4+1)*x+(z^3+z^2+1) = 0x2Dx^7+0x16x^6+0xDx^5+0x1Cx^4+0x23x^3+0x1Ax^2+0x11x+0xD
+2016-09-21T22:30:12.847083	Worker 6	Convert gzip compression to bz2
+2016-09-21T22:30:14.823541	Worker 6	is going to search for pair (8,10)
+2016-09-21T22:30:45.143202	Worker 5	has finished the task (8,4):	8 degree polynomial ring with 4 degree field coefficients: (z^2+z)*x^7+(z^3+z^2+z)*x^6+(z^2+1)*x^5+(z^2+1)*x^4+(z^2+1)*x^3+(z^3+z^2+z)*x^2+(z^2)*x+(z^3) = 0x6x^7+0xEx^6+0x5x^5+0x5x^4+0x5x^3+0xEx^2+0x4x+0x8
+2016-09-21T22:30:45.143337	Worker 5	Convert gzip compression to bz2
+2016-09-21T22:30:54.474850	Worker 8	has finished the task (5,15):	5 degree polynomial ring with 15 degree field coefficients: (z^14+z^12+z^10+z^7+z^3+z^2+1)*x^4+(z^13+z^12+z^11+z^10+z^8+z^6+z^2)*x^3+(z^12+z^10+z^9+z^7+z^6+z^5+z^2)*x^2+(z^13+z^12+z^11+z^7+z^3+z^2+z+1)*x+(z^12+z^11+z^10+z^7+z^6+z^5+z^4+1) = 0x548Dx^4+0x3D44x^3+0x16E4x^2+0x388Fx+0x1CF1
+2016-09-21T22:30:54.474972	Worker 8	Convert gzip compression to bz2
+2016-09-21T22:30:58.529855	Worker 4	has finished the task (8,7):	8 degree polynomial ring with 7 degree field coefficients: (z^5+z^4+z^2+1)*x^7+(z^6+z^5+z^2+z)*x^6+(z^6+z^2+z)*x^5+(z^5+z^4+z^3)*x^4+(z^6+z^3+z^2+z)*x^3+(z^6+z^2+z+1)*x^2+(z^5+z^4+z^3+z^2)*x+(z^5+z^4) = 0x35x^7+0x66x^6+0x46x^5+0x38x^4+0x4Ex^3+0x47x^2+0x3Cx+0x30
+2016-09-21T22:30:58.529984	Worker 4	Convert gzip compression to bz2
+2016-09-21T22:31:04.347101	Worker 4	is going to search for pair (8,11)
+2016-09-21T22:31:28.225470	Worker 2	has finished the task (8,8):	8 degree polynomial ring with 8 degree field coefficients: (z^6+z^4+z)*x^7+(z^6+z^5+z^4+z^2)*x^6+(z^7+z^6+z^4+z^3)*x^5+(z^3+z^2+z+1)*x^4+(z^7+z^6+z^3+z+1)*x^3+(z^6+z^5+z^3+z)*x^2+(z^7+z^6+z^3+z)*x+(z^7+z^6+z^2+1) = 0x52x^7+0x74x^6+0xD8x^5+0xFx^4+0xCBx^3+0x6Ax^2+0xCAx+0xC5
+2016-09-21T22:31:28.225694	Worker 2	Convert gzip compression to bz2
+2016-09-21T22:31:52.350511	Worker 2	is going to search for pair (8,12)
+2016-09-21T22:31:53.973020	Worker 5	is going to search for pair (8,13)
+2016-09-21T22:32:08.901981	Worker 8	is going to search for pair (8,14)
+2016-09-21T22:32:21.093242	Worker 12	has finished the task (8,9):	8 degree polynomial ring with 9 degree field coefficients: (z^6+z^3+z^2+z)*x^7+(z^5+z^4+z^3+z^2+1)*x^6+(z^7+z^5+z^4+z^2+z)*x^5+(z^7+z^6+z^3+z+1)*x^4+(z^7+z^6+z^5+z^3+z)*x^3+(z^5+z^3+1)*x^2+(z^8+z^5+z^2+z)*x+(z^8+z^5+z^4+z+1) = 0x4Ex^7+0x3Dx^6+0xB6x^5+0xCBx^4+0xEAx^3+0x29x^2+0x126x+0x133
+2016-09-21T22:32:21.093337	Worker 12	Convert gzip compression to bz2
+2016-09-21T22:32:35.377782	Worker 12	is going to search for pair (8,15)
+2016-09-21T22:33:08.046774	Worker 6	has finished the task (8,10):	8 degree polynomial ring with 10 degree field coefficients: (z^9+z^7+z^3+z^2+1)*x^7+(z^5+z^3+z^2+z+1)*x^6+(z^9+z^6+z^5+z^2+1)*x^5+(z^8+z^5+z^4+1)*x^4+(z^7+z^5+z^4+z^3+z^2+1)*x^3+(z^9+z^5+z^4+z^3+z^2)*x^2+(z^9+z^8+z^5+z^3+1)*x+(z^9+z^8+z^5+z^4+z) = 0x28Dx^7+0x2Fx^6+0x265x^5+0x131x^4+0xBDx^3+0x23Cx^2+0x329x+0x332
+2016-09-21T22:33:08.046904	Worker 6	Convert gzip compression to bz2
+2016-09-21T22:33:10.476526	Worker 9	has finished the task (5,16):	5 degree polynomial ring with 16 degree field coefficients: (z^13+z^12+z^8+z^7+z^4+z^3+z^2+z+1)*x^4+(z^14+z^11+z^9+z^4+z^3+z^2+z+1)*x^3+(z^15+z^11+z^9+z^8+z^6+z^4+z)*x^2+(z^15+z^14+z^12+z^6+z^5+z^4+z^3)*x+(z^12+z^11+z^9+z^6+z^5+z^4+z^3+z^2+z) = 0x319Fx^4+0x4A1Fx^3+0x8B52x^2+0xD078x+0x1A7E
+2016-09-21T22:33:10.476622	Worker 9	Convert gzip compression to bz2
+2016-09-21T22:33:42.951547	Worker 6	is going to search for pair (8,16)
+2016-09-21T22:34:27.801153	Father		The queue is empty (True)
+2016-09-21T22:35:05.561693	Worker 4	has finished the task (8,11):	8 degree polynomial ring with 11 degree field coefficients: (z^10+z^9+z^8+z^7+z^6+z^5+z^2)*x^7+(z^9+z^8+z^4+z^3+z)*x^6+(z^8+z^7+z^5+z^3+z^2)*x^5+(z^9+z^7+z^5+z^3+z^2+1)*x^4+(z^10+z^9+z^6+z^4+z)*x^3+(z^6+z^4+z^3+z^2+1)*x^2+(z^6+z^4+z^3+z^2+z+1)*x+(z^8+z^7+z^6+z^3+1) = 0x7E4x^7+0x31Ax^6+0x1ACx^5+0x2ADx^4+0x652x^3+0x5Dx^2+0x5Fx+0x1C9
+2016-09-21T22:35:05.561833	Worker 4	Convert gzip compression to bz2
+2016-09-21T22:35:23.950693	Worker 4	tasks queue is empty, ending its execution
+2016-09-21T22:35:27.860965	Father		Worker 4 (21080) joined
+2016-09-21T22:36:59.634381	Worker 9	tasks queue is empty, ending its execution
+2016-09-21T22:37:27.980949	Father		Worker 9 (21085) joined
+2016-09-21T22:38:45.181507	Worker 2	has finished the task (8,12):	8 degree polynomial ring with 12 degree field coefficients: (z^9+z^8+z^7+z^3+z+1)*x^7+(z^11+z^8+z^7+z^4+z^3+z)*x^6+(z^10+z^7+z^6+z^3+z^2)*x^5+(z^10+z^9+z^8+z^5+z+1)*x^4+(z^8+z^6+z^4+z^3+z^2+z+1)*x^3+(z^10+z^6+z^4+z^3+z)*x^2+(z^11+z^10+z^7+z^6+z^2+1)*x+(z^11+z^10+z^9+z^8+z^5+z^4+z) = 0x38Bx^7+0x99Ax^6+0x4CCx^5+0x723x^4+0x15Fx^3+0x45Ax^2+0xCC5x+0xF32
+2016-09-21T22:38:45.181718	Worker 2	Convert gzip compression to bz2
+2016-09-21T22:40:42.900326	Worker 10	has finished the task (6,14):	6 degree polynomial ring with 14 degree field coefficients: (z^12+z^9+z^7+z^5+z^3+z^2+1)*x^5+(z^12+z^9+z^7+z^6+z^4+z^3+1)*x^4+(z^13+z^11+z^9+z^5+z+1)*x^3+(z^10+z^7+z^5+z^4+z^3+z^2+1)*x^2+(z^13+z^9+z^7+z^6+z^5+z^4+z^2+z)*x+(z^13+z^10+z^8+z^7+z^4+z^2+1) = 0x12ADx^5+0x12D9x^4+0x2A23x^3+0x4BDx^2+0x22F6x+0x2595
+2016-09-21T22:40:42.900509	Worker 10	Convert gzip compression to bz2
+2016-09-21T22:42:24.604699	Worker 11	has finished the task (6,13):	6 degree polynomial ring with 13 degree field coefficients: (z^9+z^7+z^4+z^2+z+1)*x^5+(z^12+z^10+z^7+z^6+z^4+z^2)*x^4+(z^12+z^8+z^6+z^4+z^3+z^2+z)*x^3+(z^11+z^9+z^5+z^4+z+1)*x^2+(z^12+z^11+z^7+z^5+z^4+z^3+z)*x+(z^12+z^10+z^9+z^6+z^5+z^4+z^2) = 0x297x^5+0x14D4x^4+0x115Ex^3+0xA33x^2+0x18BAx+0x1674
+2016-09-21T22:42:24.605002	Worker 11	Convert gzip compression to bz2
+2016-09-21T22:42:53.913456	Worker 2	tasks queue is empty, ending its execution
+2016-09-21T22:43:28.340926	Father		Worker 2 (21078) joined
+2016-09-21T22:45:30.287934	Worker 11	tasks queue is empty, ending its execution
+2016-09-21T22:46:28.520978	Father		Worker 11 (21087) joined
+2016-09-21T22:51:38.414841	Worker 1	has finished the task (6,15):	6 degree polynomial ring with 15 degree field coefficients: (z^14+z^13+z^7+z^6+z^5+z^3+z)*x^5+(z^13+z^12+z^6+z^5+z^4+z^3+1)*x^4+(z^13+z^12+z^11+z^5+z^4+z^3+z^2+z)*x^3+(z^13+z^11+z^8+z^5+z^4+z^3+z^2+z)*x^2+(z^14+z^11+z^9+z^7+z^6+z^3+1)*x+(z^12+z^11+z^10+z^9+z^7+z^3+z^2+z) = 0x60EAx^5+0x3079x^4+0x383Ex^3+0x293Ex^2+0x4AC9x+0x1E8E
+2016-09-21T22:51:38.414997	Worker 1	Convert gzip compression to bz2
+2016-09-21T22:56:34.048185	Worker 1	tasks queue is empty, ending its execution
+2016-09-21T22:57:29.157491	Father		Worker 1 (21077) joined
+2016-09-21T22:59:44.290143	Worker 0	has finished the task (6,16):	6 degree polynomial ring with 16 degree field coefficients: (z^14+z^13+z^12+z^8+z^6+z^5+z^3)*x^5+(z^15+z^12+z^11+z^10+z^8+z^7+z^5+z)*x^4+(z^14+z^13+z^10+z^9+z^7+z^6+z^4+z^3+z)*x^3+(z^13+z^12+z^11+z^8+z^6+z^3+z^2+z+1)*x^2+(z^13+z^12+z^11+z^7+z^4+z+1)*x+(z^11+z^10+z^9+z^8+z^7+z^5+z^2+z) = 0x7168x^5+0x9DA2x^4+0x66DAx^3+0x394Fx^2+0x3893x+0xFA6
+2016-09-21T22:59:44.290344	Worker 0	Convert gzip compression to bz2
+2016-09-21T23:00:09.669743	Worker 10	tasks queue is empty, ending its execution
+2016-09-21T23:00:29.336852	Father		Worker 10 (21086) joined
+2016-09-21T23:26:52.648814	Worker 14	has finished the task (7,13):	7 degree polynomial ring with 13 degree field coefficients: (z^10+z^9+z^8+z^5+z^4+z^2+z)*x^6+(z^12+z^11+z^7+z^6+z^3+z^2)*x^5+(z^10+z^7+z^6+z^2+z+1)*x^4+(z^11+z^8+z^6+z^4+z^3+z^2+1)*x^3+(z^12+z^11+z^10+z^8+z^5+z+1)*x^2+(z^12+z^11+z^10+z^8+z^3+z^2)*x+(z^12+z^10+z^8+z^7+z+1) = 0x736x^6+0x18CCx^5+0x4C7x^4+0x95Dx^3+0x1D23x^2+0x1D0Cx+0x1583
+2016-09-21T23:26:52.648947	Worker 14	Convert gzip compression to bz2
+2016-09-21T23:31:15.611475	Worker 13	has finished the task (7,14):	7 degree polynomial ring with 14 degree field coefficients: (z^12+z^11+z^10+z^8+z^3+z^2+z)*x^6+(z^13+z^12+z^11+z^9+z^5+z^3+z^2+z)*x^5+(z^13+z^12+z^10+z^9+z^4+z)*x^4+(z^13+z^12+z^9+z^5+z^3+z^2+z+1)*x^3+(z^8+z^7+z^6+z^5+z^4+1)*x^2+(z^13+z^11+z^8+z^5+z^4+z^2+1)*x+(z^10+z^9+z^8+z^6+z^5+z^2+z) = 0x1D0Ex^6+0x3A2Ex^5+0x3612x^4+0x322Fx^3+0x1F1x^2+0x2935x+0x766
+2016-09-21T23:31:15.611684	Worker 13	Convert gzip compression to bz2
+2016-09-21T23:57:25.098410	Worker 7	has finished the task (7,15):	7 degree polynomial ring with 15 degree field coefficients: (z^13+z^11+z^10+z^7+z^4+z^3+1)*x^6+(z^14+z^13+z^12+z^10+z^6+z^2+z)*x^5+(z^13+z^9+z^8+z^7+z^6+z^3+z^2+z)*x^4+(z^13+z^11+z^10+z^9+z^8+z^6+z^5+z^4)*x^3+(z^13+z^10+z^6+z^4+z^3+z^2+z+1)*x^2+(z^14+z^11+z^6+z^5+z^3+z^2+1)*x+(z^13+z^12+z^10+z^8+z^5+z^3+z^2) = 0x2C99x^6+0x7446x^5+0x23CEx^4+0x2F70x^3+0x245Fx^2+0x486Dx+0x352C
+2016-09-21T23:57:25.098660	Worker 7	Convert gzip compression to bz2
+2016-09-22T00:23:07.291484	Worker 14	tasks queue is empty, ending its execution
+2016-09-22T00:23:32.680988	Father		Worker 14 (21090) joined
+2016-09-22T00:28:02.585823	Worker 0	tasks queue is empty, ending its execution
+2016-09-22T00:28:32.979184	Father		Worker 0 (21076) joined
+2016-09-22T00:28:41.986693	Worker 3	has finished the task (7,16):	7 degree polynomial ring with 16 degree field coefficients: (z^15+z^8+z^7+z^6+z^4+z^3+z^2+z)*x^6+(z^13+z^9+z^8+z^6+z^4+z^2+z+1)*x^5+(z^13+z^9+z^6+z^4+z^3+z^2+z+1)*x^4+(z^14+z^13+z^12+z^10+z^9+z^8+z^5+z^2)*x^3+(z^11+z^10+z^9+z^7+z^4+z^3+z^2+1)*x^2+(z^14+z^13+z^8+z^6+z^5+z^2+z+1)*x+(z^15+z^13+z^12+z^9+z^7+z^4+z^2+1) = 0x81DEx^6+0x2357x^5+0x225Fx^4+0x7724x^3+0xE9Dx^2+0x6167x+0xB295
+2016-09-22T00:28:41.986851	Worker 3	Convert gzip compression to bz2
+2016-09-22T01:03:25.609086	Worker 7	tasks queue is empty, ending its execution
+2016-09-22T01:03:34.400692	Father		Worker 7 (21083) joined
+2016-09-22T01:29:33.951222	Worker 5	has finished the task (8,13):	8 degree polynomial ring with 13 degree field coefficients: (z^11+z^8+z^6+z^5+z^4+z^3)*x^7+(z^11+z^7+z^5+z^4+z^3)*x^6+(z^12+z^11+z^9+z^8+z^7+z^6+z)*x^5+(z^12+z^8+z^7+z^4+z^2+z)*x^4+(z^12+z^5+z^4+z^3+z^2+z+1)*x^3+(z^11+z^8+z^7+z^6+z^5+z^2+z)*x^2+(z^6+z^5+z^4+z^3+z^2+z+1)*x+(z^9+z^8+z^7+z^6+z^4+z^3+z) = 0x978x^7+0x8B8x^6+0x1BC2x^5+0x1196x^4+0x103Fx^3+0x9E6x^2+0x7Fx+0x3DA
+2016-09-22T01:29:33.951432	Worker 5	Convert gzip compression to bz2
+2016-09-22T01:38:27.428344	Worker 8	has finished the task (8,14):	8 degree polynomial ring with 14 degree field coefficients: (z^13+z^11+z^7+z^6+z^4+z^2+z+1)*x^7+(z^11+z^9+z^8+z^7+z^6+z^3+z^2+z)*x^6+(z^13+z^12+z^6+z^4+z^2+1)*x^5+(z^13+z^6+z^5+z^3+z^2+z+1)*x^4+(z^12+z^10+z^9+z^7+z^5+z^2)*x^3+(z^10+z^5+z^4+z^2+z+1)*x^2+(z^12+z^10+z^9+z^8+z^7+z^4+z^3+1)*x+(z^13+z^12+z^9+z^8+z^6+z^2+z) = 0x28D7x^7+0xBCEx^6+0x3055x^5+0x206Fx^4+0x16A4x^3+0x437x^2+0x1799x+0x3346
+2016-09-22T01:38:27.428494	Worker 8	Convert gzip compression to bz2
+2016-09-22T02:42:30.302882	Worker 13	tasks queue is empty, ending its execution
+2016-09-22T02:42:38.268420	Father		Worker 13 (21089) joined
+2016-09-22T03:30:03.435549	Worker 5	tasks queue is empty, ending its execution
+2016-09-22T03:30:40.013932	Father		Worker 5 (21081) joined
+2016-09-22T04:12:33.192188	Worker 12	has finished the task (8,15):	8 degree polynomial ring with 15 degree field coefficients: (z^14+z^12+z^11+z^10+z^3+z^2+z+1)*x^7+(z^11+z^9+z^6+z^5+z^4+z^2+1)*x^6+(z^14+z^13+z^9+z^7+z^6+z^3+z^2+1)*x^5+(z^14+z^10+z^7+z^6+z^4+z^3+z)*x^4+(z^14+z^13+z^11+z^9+z^6+z^3+1)*x^3+(z^14+z^13+z^12+z^11+z^10+z^5+z^4+z)*x^2+(z^11+z^9+z^7+z^6+z^2+z+1)*x+(z^12+z^11+z^10+z^9+z^8+z^4+z^2+z) = 0x5C0Fx^7+0xA75x^6+0x62CDx^5+0x44DAx^4+0x6A49x^3+0x7C32x^2+0xAC7x+0x1F16
+2016-09-22T04:12:33.192324	Worker 12	Convert gzip compression to bz2
+2016-09-22T04:38:29.940806	Worker 6	has finished the task (8,16):	8 degree polynomial ring with 16 degree field coefficients: (z^13+z^12+z^11+z^9+z^8+z^4+z^2+z)*x^7+(z^15+z^10+z^7+z^5+z^4+z^2+z+1)*x^6+(z^14+z^13+z^10+z^9+z^8+z^7+z^4+z^2)*x^5+(z^15+z^14+z^8+z^7+z^6+z^4+z+1)*x^4+(z^11+z^9+z^8+z^6+z^3+z^2+z+1)*x^3+(z^15+z^14+z^8+z^6+z^4+z^2+z+1)*x^2+(z^15+z^10+z^9+z^8+z^7+z^4+z^3+z)*x+(z^14+z^11+z^10+z^9+z^7+z^2+z+1) = 0x3B16x^7+0x84B7x^6+0x6794x^5+0xC1D3x^4+0xB4Fx^3+0xC157x^2+0x879Ax+0x4E87
+2016-09-22T04:38:29.940964	Worker 6	Convert gzip compression to bz2
+2016-09-22T05:45:55.095812	Worker 3	tasks queue is empty, ending its execution
+2016-09-22T05:46:46.042787	Father		Worker 3 (21079) joined
+2016-09-22T08:07:44.547523	Worker 8	tasks queue is empty, ending its execution
+2016-09-22T08:07:48.761506	Father		Worker 8 (21084) joined
+2016-09-22T08:34:51.076074	Worker 12	tasks queue is empty, ending its execution
+2016-09-22T08:35:50.042551	Father		Worker 12 (21088) joined
+2016-09-22T15:47:08.097421	Father		Worker 6 (21082) joined
+2016-09-22T15:48:08.158433	Father		Everything is done.
