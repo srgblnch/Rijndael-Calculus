@@ -1,9 +1,8 @@
 import traceback
-import GeneralizedRijndael
-fieldModulo = GeneralizedRijndael.Polynomials.getBinaryExtensionFieldModulo(8)
-field = GeneralizedRijndael.Polynomials.BinaryExtensionModulo(fieldModulo,
-                                                              variable='z')
-ring = GeneralizedRijndael.Polynomials.PolynomialRingModulo('x^4+1', field)
+import gRijndael
+fieldModulo = gRijndael.Polynomials.getBinaryExtensionFieldModulo(8)
+field = gRijndael.Polynomials.BinaryExtensionModulo(fieldModulo, variable='z')
+ring = gRijndael.Polynomials.PolynomialRingModulo('x^4+1', field)
 
 c = ring('(z+1)*x^3+x^2+x+(z)')
 print("c = %s = %s" % (c, hex(c)))

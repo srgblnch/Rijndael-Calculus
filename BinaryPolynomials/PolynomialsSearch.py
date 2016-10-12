@@ -31,12 +31,12 @@ __status__ = "development"
 from copy import copy, deepcopy
 import csv
 from datetime import datetime
-from GeneralizedRijndael.Logger import Logger
+from gRijndael.Logger import Logger
 import multiprocessing
 from numpy import array, float64
 from optparse import OptionParser
-from GeneralizedRijndael.Logger import levelFromMeaning as _levelFromMeaning
-from GeneralizedRijndael.Polynomials import *
+from gRijndael.Logger import levelFromMeaning as _levelFromMeaning
+from gRijndael.Polynomials import *
 from PolynomialsTest import setupLogging
 from sys import getrecursionlimit, setrecursionlimit
 import traceback

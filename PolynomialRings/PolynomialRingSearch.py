@@ -28,9 +28,9 @@ __status__ = "development"
    order to allow reproducibility and algorithm review.
 '''
 
-from GeneralizedRijndael.Logger import Logger as _Logger
-from GeneralizedRijndael.Logger import levelFromMeaning as _levelFromMeaning
-from GeneralizedRijndael.Polynomials import *
+from gRijndael.Logger import Logger as _Logger
+from gRijndael.Logger import levelFromMeaning as _levelFromMeaning
+from gRijndael.Polynomials import *
 from math import log
 from optparse import OptionParser
 import psutil
@@ -80,7 +80,7 @@ class SimulatedAnheling(_Logger):
         if fieldSize == 2 and polynomialRingSize == 2:
             self._deviation = 1
             # --- Force an special case for this very small situation.
-        #elif sizeInBytes < 2:
+        # elif sizeInBytes < 2:
         bar = int(round(log(fieldSize*polynomialRingSize)))
         if bar % 2:
             self._deviation = bar / 2
@@ -164,8 +164,8 @@ class SimulatedAnheling(_Logger):
                     self._debug_stream("Made %d tries "
                                        "to generate random coefficient "
                                        "(%d not in %s)"
-                                        % (tries, coefficient.hammingWeight,
-                                           hammingRange))
+                                       % (tries, coefficient.hammingWeight,
+                                          hammingRange))
         return coefficient
 
     def __moveNearCoefficient(self, input, distance):
@@ -180,7 +180,7 @@ class SimulatedAnheling(_Logger):
                 if tries % 10 == 0:
                     self._debug_stream("Made %d tries "
                                        "to generate a small change to %s"
-                                        % (tries, hex(input)))
+                                       % (tries, hex(input)))
         return coefficient
 
     def __generatePolynomial(self):
@@ -234,7 +234,7 @@ class SimulatedAnheling(_Logger):
             self._memoryPercent = int(psutil.virtual_memory().percent)
             self._warning_stream("Memory in use %g, this process uses %g "
                                  "(already tested polynomials %d)"
-                                 % (psutil.virtual_memory().percent, 
+                                 % (psutil.virtual_memory().percent,
                                     psutil.Process().memory_percent(),
                                     len(self._alreadyTestedPolynomials)))
         self._alreadyTestedPolynomials.append(int(polynomial))
@@ -256,7 +256,7 @@ class SimulatedAnheling(_Logger):
         return False
 
     def __PrefactoryTwo(self, polynomial):
-        # This may not have sense to check the condition on a candidate, 
+        # This may not have sense to check the condition on a candidate,
         # because in the candidate generation (jump or near) this is check.
         # But for its inverse evaluation it is.
         if self._desiredCoeffHammingRange is None:
@@ -361,9 +361,9 @@ class SimulatedAnheling(_Logger):
         scoreKeys = scores.keys()
         scoreKeys.sort()
         candidate = scores[scoreKeys[0]]
-        # --- TODO: perhaps there is more than one
+        # TODO: perhaps there is more than one ---
         return candidate[0]
-    
+
     def __scoreLst(self, lst):
         lst.sort()
         score = 0
@@ -453,7 +453,7 @@ def cmdArgs(parser):
     parser.add_option('', "--max-samples", type="int",
                       help="Tell the algorithm how many samples first "
                       "screening must collect as maximum.")
-    
+
 
 def closeSearch(searcher, logFunc=None, worker=None):
     if searcher.compressedLogfile is None:
@@ -480,7 +480,7 @@ def closeSearch(searcher, logFunc=None, worker=None):
         os.remove(fileName+'.gz')
     else:
         msg = "No compression conversion needed. (%s)"\
-                % searcher.compressedLogfile
+              % searcher.compressedLogfile
         if logFunc:
             logFunc("Worker %d\t%s\n" % (worker, msg))
         else:
@@ -513,7 +513,7 @@ def worker(queue, fileName, fLocker, max_samples, logLevel=_Logger._info):
     def write2File(msg):
         with fLocker:
             with open(fileName, 'a') as f:
-                f.write("%s\t%s" % (datetime.now().isoformat(),msg))
+                f.write("%s\t%s" % (datetime.now().isoformat(), msg))
     id = int(multiprocessing.current_process().name)
     while not queue.empty():
         try:
@@ -531,23 +531,25 @@ def worker(queue, fileName, fLocker, max_samples, logLevel=_Logger._info):
             closeSearch(searcher, write2File, id)
             del searcher
         except Exception as e:
-            write2File("** Worker %d\treports an exception for pair (%d,%d): **"
-                       "\n\t%s\n" % (id, i, j, e))
-    write2File("Worker %d\ttasks queue is empty, ending its execution\n" % (id))
+            write2File("** Worker %d\treports an exception for pair "
+                       "(%d,%d): **\n\t%s\n" % (id, i, j, e))
+    write2File("Worker %d\ttasks queue is empty, ending its execution\n"
+               % (id))
 
 
-CHECKPERIOD = 60 # a minute
+CHECKPERIOD = 60  # a minute
 
 
 def parallelProcessing(pairs, processors, max_samples, logLevel=_Logger._info):
     def write2File(msg):
         with fLocker:
             with open(fileName, 'a') as f:
-                f.write("%s\t%s" % (datetime.now().isoformat(),msg))
+                f.write("%s\t%s" % (datetime.now().isoformat(), msg))
+
     def buildWorker(id):
         return multiprocessing.Process(target=worker, name=str("%d" % (id)),
-                                       args=(queue, fileName, fLocker, max_samples,
-                                             logLevel))
+                                       args=(queue, fileName, fLocker,
+                                             max_samples, logLevel))
     try:
         now = datetime.now().strftime("%Y%m%d_%H%M%S")
         fileName = "%s_SimulatedAnheling_ParallelSearch.log" % (now)
@@ -560,8 +562,8 @@ def parallelProcessing(pairs, processors, max_samples, logLevel=_Logger._info):
             if processors < 0:
                 processors = maxParallelprocesses + processors
         with open(fileName, 'a') as f:
-            write2File("Father\t\tWith %d processors, prepare a set of %d workers\n"
-                       % (maxParallelprocesses, processors))
+            write2File("Father\t\tWith %d processors, prepare a set of %d "
+                       "workers\n" % (maxParallelprocesses, processors))
         queue = multiprocessing.Queue()
         for i, j in pairs:
             queue.put([i, j])
@@ -577,7 +579,7 @@ def parallelProcessing(pairs, processors, max_samples, logLevel=_Logger._info):
         while not queue.empty():
             # --- check if all the workers are alive and working
             while not all([True if pid is not None else False
-                       for pid in pidsLst]):
+                           for pid in pidsLst]):
                 try:
                     idx = pidsLst.index(None)
                 except:
@@ -609,8 +611,9 @@ def parallelProcessing(pairs, processors, max_samples, logLevel=_Logger._info):
                     write2File("Father\t\tWorker %s (%d) joined\n"
                                % (w.name, w.pid))
                 else:
-                    pass  # write2File("Father\t\tWorker %s still working\n"
-                          #            % (w.name))
+                    pass
+                    # write2File("Father\t\tWorker %s still working\n"
+                    #            % (w.name))
             sleep(CHECKPERIOD)
         write2File("Father\t\tEverything is done.\n")
     except Exception as e:
@@ -638,15 +641,17 @@ def main():
     elif options.search_set is not None:
         lstOfPairs = extractSets(options.search_set)
         if options.parallel_processing:
-            parallelProcessing(lstOfPairs, options.processors, options.max_samples, logLevel)
+            parallelProcessing(lstOfPairs, options.processors,
+                               options.max_samples, logLevel)
         else:
             singleProcessing(lstOfPairs, options.max_samples, logLevel)
     elif options.search_all is not None:
-        ring_ranges = range(2,MAX_RING_DEGREE+1)
-        coefficient_ranges = range(2,MAX_FIELD_DEGREE+1)
+        ring_ranges = range(2, MAX_RING_DEGREE+1)
+        coefficient_ranges = range(2, MAX_FIELD_DEGREE+1)
         lstOfPairs = list(itertools.product(ring_ranges, coefficient_ranges))
         if options.parallel_processing:
-            parallelProcessing(lstOfPairs, options.processors, options.max_samples, logLevel)
+            parallelProcessing(lstOfPairs, options.processors,
+                               options.max_samples, logLevel)
         else:
             singleProcessing(lstOfPairs, options.max_samples, logLevel)
     else:

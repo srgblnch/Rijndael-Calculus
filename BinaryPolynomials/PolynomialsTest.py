@@ -26,8 +26,8 @@ __status__ = "development"
    concentrate every thing related with development and testing apart.
 '''
 
-from GeneralizedRijndael.Logger import levelFromMeaning as _levelFromMeaning
-from GeneralizedRijndael.Polynomials import *
+from gRijndael.Logger import levelFromMeaning as _levelFromMeaning
+from gRijndael.Polynomials import *
 
 # ## Begin testing area ----
 
