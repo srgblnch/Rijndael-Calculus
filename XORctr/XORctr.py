@@ -213,7 +213,7 @@ def gRijndaelXORxtr(processors):
             argout = doRijndael(argin)
             write2cvs(argin, argout, **{'lock': lock, 'fileName': fileName})
     else:
-        pool = Pool(doRijndael, arginLst, options.processors,
+        pool = Pool(doRijndael, arginLst, processors,
                     postHook=write2cvs,
                     postExtraArgs={'lock': lock, 'fileName': fileName},
                     loggerName="XORctr", loggingFolder='.')
@@ -227,36 +227,10 @@ def gRijndaelXORxtr(processors):
             print("\n\tprogress: %.2f%%" % ((progress)*100))
             print("\tcontributions: %s" % (contributions))
             print("\tcomputation: %s\n" % (computation))
-#                     blockSize = nRows*nColumns*wordSize
-#                     keySize = nRows*nKolumns*wordSize
-#                     try:
-#                         doRijndael(fileName, nRounds, nRows, nColumns,
-#                                    wordSize, nKolumns)
-#                     except AssertionError as e:
-#                         print("gRijndael(%2d, %2d, %2d, %2d, %2d): "
-#                               "(b%4d, k%4d)-> Exception: %s"
-#                               % (nRounds, nRows, nColumns, wordSize, nKolumns,
-#                                  blockSize, keySize, e))
-#                         with open(fileName, 'a') as f:
-#                             f.write("%d\t%d\t%d\t%d\t%d\t%d\t%d"
-#                                     "\t%s\t%s\t%s\t%s\n"
-#                                     % (nRounds, nRows, nColumns, wordSize,
-#                                        nKolumns, blockSize, keySize, "NaN",
-#                                        "NaN", "NaN", "NaN"))
-#                         errors.append([nRounds, nRows, nColumns, wordSize,
-#                                        nKolumns, e])
-    if len(errors) > 0:
-        print("Issues found in the process:")
-        for error in errors:
-            try:
-                nRounds, nRows, nColumns, wordSize, nKolumns, e = error
-                print("\tgRijndael(%2d, %2d, %2d, %2d, %2d): %s"
-                      % (nRounds, nRows, nColumns, wordSize, nKolumns, e))
-            except:
-                print("\t%s" % e)
 
 
-def doRijndael(fileName, nRounds, nRows, nColumns, wordSize, nKolumns):
+def doRijndael(argin):
+    nRounds, nRows, nColumns, wordSize, nKolumns = argin
     encrXors = []
     decrXors = []
     for i in range(nRows*nColumns):
@@ -272,11 +246,6 @@ def doRijndael(fileName, nRounds, nRows, nColumns, wordSize, nKolumns):
                                     nKolumns))
         decrXors.append(rijndael.xors)
         rijndael.reset()
-#         print("gRijndael(%2d, %2d, %2d, %2d, %2d): (b%4d, k%4d)-> "
-#               "%9d xors & %9d xors"
-#               % (nRounds, nRows, nColumns, wordSize, nKolumns,
-#                  rijndael.blockSize, rijndael.keySize, encrXors[-1],
-#                  decrXors[-1]))
     encrXors = array(encrXors)
     decrXors = array(decrXors)
     return encrXors.mean(), encrXors.std(), decrXors.mean(), decrXors.std(),\
