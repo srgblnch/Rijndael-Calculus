@@ -49,6 +49,7 @@ from gRijndael.SubBytes import SubBytes as _SubBytes
 from gRijndael.ShiftRows import ShiftRows as _ShiftRows
 from gRijndael.ThirdLevel import Long as _Long
 from gRijndael.ThirdLevel import State as _State
+from logging import DEBUG
 from optparse import OptionParser
 from multiprocessing import Lock as _Lock
 from time import sleep
@@ -332,7 +333,8 @@ def main():
             pool = Pool(target, arginLst, options.processors,
                         postHook=write2cvs,
                         postExtraArgs={'lock': lock, 'fileName': fileName},
-                        loggerName="FullDiffusion", loggingFolder='.')
+                        debug=True, logLevel=DEBUG, loggerName="FullDiffusion",
+                        loggingFolder='.')
             pool.log2file = True
             pool.start()
             while pool.isAlive():

@@ -31,6 +31,7 @@ from gRijndael import SubBytes
 from gRijndael import MixColumns
 from gRijndael import gRijndael
 from gRijndael.Logger import levelFromMeaning
+from logging import DEBUG
 from multiprocessing import Lock as _Lock
 from numpy import array
 from optparse import OptionParser
@@ -216,7 +217,8 @@ def gRijndaelXORxtr(processors):
         pool = Pool(doRijndael, arginLst, processors,
                     postHook=write2cvs,
                     postExtraArgs={'lock': lock, 'fileName': fileName},
-                    loggerName="XORctr", loggingFolder='.')
+                    debug=True, logLevel=DEBUG, loggerName="XORctr",
+                    loggingFolder='.')
         pool.log2file = True
         pool.start()
         while pool.isAlive():
