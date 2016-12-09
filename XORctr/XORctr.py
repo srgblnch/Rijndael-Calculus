@@ -223,12 +223,19 @@ def gRijndaelXORxtr(processors):
         pool.start()
         while pool.isAlive():
             sleep(10)
-            computation, _ = pool.computation
+            computation, perWorker = pool.computation
+            for i, each in enumerate(perWorker):
+                perWorker[i] = "%s" % each
             contributions = pool.contributions
+            states = pool.workersStarted
+            for i, each in enumerate(states):
+                s = "%s" % each
+                states[i] = s[0]
             progress = pool.progress
             print("\n\tprogress: %.2f%%" % ((progress)*100))
             print("\tcontributions: %s" % (contributions))
-            print("\tcomputation: %s\n" % (computation))
+            print("\tstates: %s" % (states))
+            print("\tcomputation: %s %s\n" % (computation, perWorker))
 
 
 def doRijndael(argin):
