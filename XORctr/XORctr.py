@@ -258,7 +258,7 @@ def doRijndael(argin):
         rijndael.reset()
     encrXors = array(encrXors)
     decrXors = array(decrXors)
-    return encrXors.mean(), encrXors.std(), encrXors.min(), encData.max(),\
+    return encrXors.mean(), encrXors.std(), encrXors.min(), encrXors.max(),\
         decrXors.mean(), decrXors.std(), decrXors.min(), decrXors.max(),\
         nRows*nColumns
 
