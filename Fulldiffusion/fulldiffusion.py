@@ -333,8 +333,8 @@ def main():
             pool = Pool(target, arginLst, options.processors,
                         postHook=write2cvs,
                         postExtraArgs={'lock': lock, 'fileName': fileName},
-                        debug=True, logLevel=DEBUG, loggerName="FullDiffusion",
-                        loggingFolder='.')
+                        debug=True, logLevel=DEBUG, log2File=True,
+                        loggerName="FullDiffusion", loggingFolder='.')
             pool.log2file = True
             pool.start()
             while pool.isAlive():

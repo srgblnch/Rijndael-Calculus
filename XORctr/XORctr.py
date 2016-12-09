@@ -194,7 +194,8 @@ def gRijndaelXORxtr(processors):
     fileName = "%s_gRijndaelXORxtr.csv" % (now)
     with open(fileName, 'a') as f:
         f.write("rounds\trow\tcolumns\twordsize\tkolumns\tblock\tkey"
-                "\tsamples\tencrMean\tencrStd\tdecrMean\tdecrStd\n")
+                "\tsamples\tencrMean\tencrStd\tencrMin\tencrMax\t"
+                "decrMean\tdecrStd\tdecrMin\tdecrMax\n")
     lock = _Lock()
     errors = []
     arginLst = []
@@ -217,8 +218,8 @@ def gRijndaelXORxtr(processors):
         pool = Pool(doRijndael, arginLst, processors,
                     postHook=write2cvs,
                     postExtraArgs={'lock': lock, 'fileName': fileName},
-                    debug=True, logLevel=DEBUG, loggerName="XORctr",
-                    loggingFolder='.')
+                    debug=True, logLevel=DEBUG, log2File=True,
+                    loggerName="XORctr", loggingFolder='.')
         pool.log2file = True
         pool.start()
         while pool.isAlive():
@@ -257,12 +258,15 @@ def doRijndael(argin):
         rijndael.reset()
     encrXors = array(encrXors)
     decrXors = array(decrXors)
-    return encrXors.mean(), encrXors.std(), decrXors.mean(), decrXors.std(),\
+    return encrXors.mean(), encrXors.std(), encrXors.min(), encData.max(),\
+        decrXors.mean(), decrXors.std(), decrXors.min(), decrXors.max(),\
         nRows*nColumns
 
 def write2cvs(argin, argout, **kwargs):
     nRounds, nRows, nColumns, wordSize, nKolumns = argin
-    encrXors_mean, encrXors_std, decrXors_mean, decrXors_std, samples= argout
+    encrXors_mean, encrXors_std, encrXors_min, encrXors_max, \
+        decrXors_mean, decrXors_std, decrXors_min, decrXors_max, \
+        samples= argout
     blockSize = nRows*nColumns*wordSize
     keySize = nRows*nKolumns*wordSize
     fileName = kwargs['fileName']
@@ -274,10 +278,12 @@ def write2cvs(argin, argout, **kwargs):
                      blockSize, keySize, encrXors_mean, encrXors_std,
                      decrXors_mean, decrXors_std, samples))
         with open(fileName, 'a') as f:
-            f.write("%d\t%d\t%d\t%d\t%d\t%d\t%d\t%d\t%d\t%e\t%d\t%e\n"
+            f.write("%d\t%d\t%d\t%d\t%d\t%d\t%d\t%d\t%d\t%e\t%d\t%d\t%d"
+                    "\t%e\t%d\t%d\n"
                     % (nRounds, nRows, nColumns, wordSize, nKolumns,
                        blockSize, keySize, samples, encrXors_mean,
-                       encrXors_std, decrXors_mean, decrXors_std))
+                       encrXors_std, encrXors_min, encrXors_max, decrXors_mean,
+                       decrXors_std, decrXors_min, decrXors_max))
 
 
 def main():
