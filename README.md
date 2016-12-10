@@ -2,7 +2,7 @@
 
 This repository has been made to store the information about the tests and the calculations related with the [rijndael](https://github.com/srgblnch/Rijndael)'s python generalisation code.
 
-All these calculations require much calculations. The first ones have their implementation for parallelise their computation. But later on, the development of the [yamp](https://github.com/srgblnch/yamp) encapsulates the feature to use the library instead of rewrite it.
+All these calculations require much calculations. The first ones have their implementation for parallelise their computation. But later on, the development of the [yamp](https://github.com/srgblnch/yamp) encapsulates the feature to use the library instead of rewrite it. The calculations made before the yamp are not migrated to it because, to the external review of the work, it is important to provide information about how the things were calculated (more than how can be calculated).
 
 ## BinaryPolynomials
 
