@@ -31,6 +31,7 @@ from gRijndael import SubBytes
 from gRijndael import MixColumns
 from gRijndael import gRijndael
 from gRijndael.Logger import levelFromMeaning
+from itertools import product as itertoolsProduct
 from logging import DEBUG
 from multiprocessing import Lock as _Lock
 from numpy import array
@@ -199,13 +200,21 @@ def gRijndaelXORxtr(processors):
     lock = _Lock()
     errors = []
     arginLst = []
-    for nRows in range(2, 9):
-        for nColumns in range(2, 17):
-            for wordSize in range(3, 17):
-                for nKolumns in range(2, 17):
-                    nRounds = max(nKolumns, nColumns) + 6
-                    arginLst.append([nRounds, nRows, nColumns, wordSize,
-                                     nKolumns])
+    rangeRows = range(2, 9)
+    rangeColumns = range(2, 17)
+    rangeWords = range(3, 17)
+    rangeKolumns = range(2, 17)
+    allRanges = [rangeRows, rangeColumns, rangeWords, rangeKolumns]
+    for nRows, nColumns, wordSize, nKolumns in itertoolsProduct(*allRanges):
+        nRounds = max(nKolumns, nColumns) + 6
+        arginLst.append([nRounds, nRows, nColumns, wordSize, nKolumns])
+#     for nRows in range(2, 9):
+#         for nColumns in range(2, 17):
+#             for wordSize in range(3, 17):
+#                 for nKolumns in range(2, 17):
+#                     nRounds = max(nKolumns, nColumns) + 6
+#                     arginLst.append([nRounds, nRows, nColumns, wordSize,
+#                                      nKolumns])
     if processors is None or Pool is None:
         if Pool is None:
             print("\n\tyamp not available!"
