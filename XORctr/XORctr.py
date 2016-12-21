@@ -231,6 +231,7 @@ def gRijndaelXORxtr(processors):
                     loggerName="XORctr", loggingFolder='.')
         pool.log2file = True
         pool.start()
+        pool.waitUntilFinish()
         while pool.isAlive():
             sleep(10)
             computation, perWorker = pool.computation
